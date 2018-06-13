@@ -12,6 +12,11 @@
 		533A540020D16BE800DCF2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533A53FE20D16BE800DCF2E0 /* Main.storyboard */; };
 		533A540220D16BE800DCF2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533A540120D16BE800DCF2E0 /* Assets.xcassets */; };
 		533A540520D16BE800DCF2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533A540320D16BE800DCF2E0 /* LaunchScreen.storyboard */; };
+		533A540F20D16C4900DCF2E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A540E20D16C4900DCF2E0 /* FirstViewController.swift */; };
+		533A541120D16C5C00DCF2E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A541020D16C5C00DCF2E0 /* SecondViewController.swift */; };
+		533A541320D16C7C00DCF2E0 /* Negoziante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A541220D16C7C00DCF2E0 /* Negoziante.swift */; };
+		533A541520D16C8E00DCF2E0 /* Jeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A541420D16C8E00DCF2E0 /* Jeans.swift */; };
+		533A541720D16D2B00DCF2E0 /* roundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A541620D16D2B00DCF2E0 /* roundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		533A540120D16BE800DCF2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533A540420D16BE800DCF2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		533A540620D16BE800DCF2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533A540E20D16C4900DCF2E0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		533A541020D16C5C00DCF2E0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		533A541220D16C7C00DCF2E0 /* Negoziante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Negoziante.swift; sourceTree = "<group>"; };
+		533A541420D16C8E00DCF2E0 /* Jeans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeans.swift; sourceTree = "<group>"; };
+		533A541620D16D2B00DCF2E0 /* roundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = roundedButton.swift; path = ../../../../Desktop/roundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		533A53F920D16BE800DCF2E0 /* NVShopping */ = {
 			isa = PBXGroup;
 			children = (
+				533A540D20D16C2E00DCF2E0 /* Model */,
+				533A540C20D16C2100DCF2E0 /* View */,
 				533A53FA20D16BE800DCF2E0 /* AppDelegate.swift */,
 				533A53FC20D16BE800DCF2E0 /* ViewController.swift */,
+				533A540E20D16C4900DCF2E0 /* FirstViewController.swift */,
+				533A541020D16C5C00DCF2E0 /* SecondViewController.swift */,
 				533A53FE20D16BE800DCF2E0 /* Main.storyboard */,
 				533A540120D16BE800DCF2E0 /* Assets.xcassets */,
 				533A540320D16BE800DCF2E0 /* LaunchScreen.storyboard */,
 				533A540620D16BE800DCF2E0 /* Info.plist */,
 			);
 			path = NVShopping;
+			sourceTree = "<group>";
+		};
+		533A540C20D16C2100DCF2E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				533A541620D16D2B00DCF2E0 /* roundedButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		533A540D20D16C2E00DCF2E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				533A541220D16C7C00DCF2E0 /* Negoziante.swift */,
+				533A541420D16C8E00DCF2E0 /* Jeans.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533A541120D16C5C00DCF2E0 /* SecondViewController.swift in Sources */,
+				533A541520D16C8E00DCF2E0 /* Jeans.swift in Sources */,
+				533A541720D16D2B00DCF2E0 /* roundedButton.swift in Sources */,
+				533A541320D16C7C00DCF2E0 /* Negoziante.swift in Sources */,
+				533A540F20D16C4900DCF2E0 /* FirstViewController.swift in Sources */,
 				533A53FD20D16BE800DCF2E0 /* ViewController.swift in Sources */,
 				533A53FB20D16BE800DCF2E0 /* AppDelegate.swift in Sources */,
 			);
